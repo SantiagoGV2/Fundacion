@@ -2,7 +2,7 @@
 
 .menu {
     width: 100%;
-    height: 461px;
+    height: 520px;
     background: #667db6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, hsla(223, 35%, 56%, 0.653), hsla(201, 100%, 39%, 0.681), hsla(201, 100%, 39%, 0.67), hsla(223, 35%, 56%, 0.697)),url(../assets/img/portafolio.jpg);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, hsla(223, 35%, 56%, 0.712), hsla(201, 100%, 39%, 0.701), hsla(201, 100%, 39%, 0.701), hsla(223, 35%, 56%, 0.685)), url(../assets/img/portafolio.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -117,3 +117,92 @@ footer{
     width: 50%;
     margin: 0 auto;
   }
+
+ 
+        .navbar-toggler {
+            z-index: 1;
+        }
+
+        .navbar-collapse.show {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            background-color: rgba(0, 0, 0, 0.9); /* Fondo semitransparente */
+            transition: all 0.3s;
+        }
+
+        #descripcion {
+            padding-top: 5rem; /* Ajusta este valor según sea necesario */
+        }
+
+        .wave {
+            height: 280px;
+            overflow: hidden;
+            position: static;
+        }
+
+        .wave svg {
+            height: 100%;
+            width: 100%;
+        }
+        #fondoHeader{
+            width: 45%;
+            height: auto;
+        }
+
+        
+        @media (max-width: 991px) {
+           #fondoHeader{
+            width:500px ;
+           }
+          }
+
+          @media (max-width: 350px) {
+            #fondoHeader{
+             width:800px ;
+            }
+           }
+
+        
+#linkss{
+    font-size: 15px;
+}
+@media (max-width: 927px) {
+    #linkss{
+     font-size: 12px ;
+    }
+   }
+        
+   @media (max-width: 800px) {
+    #linkss{
+     font-size: 10px ;
+    }
+   }
+    
+
+        .navbar-nav .nav-link {
+            padding: 0.5rem 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-nav {
+                text-align: center;
+            }
+
+            .navbar-nav .nav-link {
+                width: 100%;
+                padding: 0.75rem 1rem;
+            }
+
+            #contacto {
+                margin-top: 1rem;
+            }
+        }
+
+        .wave svg {
+            display: block;
+        }
+ 
